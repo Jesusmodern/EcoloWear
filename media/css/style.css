@@ -58,31 +58,43 @@ nav a{
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  margin-bottom: 10vh;
 }
 #box0 p{
   font-size: 5em;
 }
 
-#box1 {
-  padding-top: 5%;
-  /*margin-bottom: 5%;*/
+#box1, #box11,#box12 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .texte, .photo{
   display: inline-block;
-  width: 49%;
+  width: 50%;
+  height: 50vh;
 }
 
 .texte{
-  padding: 1%;
-  /*margin-top: 10%;*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   text-align: justify;
-  color: #006633;
+  padding: 13vh;
+  font-size: 2vh;
 }
 
 .photo{
-  text-align: center;
-  /*margin-top: 4%;*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h2{
+  font-size: 5vh;
+  color: #006633;
 }
 
 p{
@@ -90,12 +102,11 @@ p{
 }
 
 img{
-  width: 50%;
+  width: 70vh;
 }
 
 #box11, #box12{
   margin-top: 5%;
-  
 }
 
 .ml16 {
@@ -117,10 +128,29 @@ img{
   clear: both;
   height: 100vh;
   display: flex;
-  align-content: center;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
-  text-align: justify;
+  text-align: center;
   padding: 5vh;
+  font-size: 2vh;
+}
+#box2 p{
+  margin: 10vh;
+}
+#icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+}
+i{
+  width: 10vh;
+  height: 10vh;
+  font-size: 8vh;
+  color: #006633;
+}
+#ispe{
+  font-size: 7.4vh;
 }
 @media screen and (max-width: 850px){
   nav li{
