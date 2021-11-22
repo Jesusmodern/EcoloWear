@@ -1,0 +1,130 @@
+@font-face {
+  font-family: "Horelios-Medium";
+  src: url("../police/Horelios_Medium.ttf");
+}
+@font-face {
+  font-family: "Raleway";
+  src: url("../police/Raleway-VariableFont_wght.ttf");
+}
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #FFFFFF;
+  font-family: "Horelios-Medium";
+  
+}
+
+nav {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  color: #006633;
+  text-align: center;
+  background-color: #f5f7f8;
+  z-index: 1;
+}
+nav li{
+  padding: 1%;
+  display: inline-block;
+  width: 33%;
+  font-size: 1.5em;
+  
+}
+
+nav li:hover{
+  color: #FDFF63;
+  cursor: pointer;
+}
+nav a{
+  text-decoration: none;
+  color: #006633;
+}
+
+#box0 {
+  height: 100vh;
+  color: #006633;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../img/planete2.gif);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+#box0 p{
+  font-size: 5em;
+}
+
+#box1 {
+  padding-top: 5%;
+  /*margin-bottom: 5%;*/
+}
+
+.texte, .photo{
+  display: inline-block;
+  width: 49%;
+}
+
+.texte{
+  padding: 1%;
+  /*margin-top: 10%;*/
+  text-align: justify;
+  color: #006633;
+}
+
+.photo{
+  text-align: center;
+  /*margin-top: 4%;*/
+}
+
+p{
+  font-family: "Raleway";
+}
+
+img{
+  width: 50%;
+}
+
+#box11, #box12{
+  margin-top: 5%;
+  
+}
+
+.ml16 {
+  color: #006633;
+  padding: 40px 0;
+  font-weight: 800;
+  font-size: 2.5em;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+  overflow: hidden;
+}
+
+.ml16 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+
+#box2{
+  clear: both;
+  height: 100vh;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  text-align: justify;
+  padding: 5vh;
+}
+@media screen and (max-width: 850px){
+  nav li{
+    font-size: 1em;
+    width: 30%;
+  }
+}
